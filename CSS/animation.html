@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated</title> 
+    <style>   
+    *{ 
+        
+        box-sizing: border-box; 
+        margin: 0px; 
+        padding: 0px;
+    }
+    .container{ 
+        width: 100vw; 
+        height: 100vh; 
+        background-color: antiquewhite;
+        border: 5px solid black;
+    } 
+    .box{ 
+        height: 150px; 
+        width: 200px;  
+        background-color: blue;
+        border-radius: 10px;    
+        margin: 10px;
+        position: relative;
+        animation-name: rightmovement;
+        animation-duration: 5s; 
+        animation-iteration-count: infinite; 
+        /*animation-delay: 1s;*/ 
+        animation-timing-function: linear;
+        animation-direction: reverse;
+        animation-fill-mode: forwards; 
+        animation-fill-mode: both;
+    
+    }   
+    
+    @keyframes rightmovement{ 
+        from{ 
+            top:0; 
+            left: 0;
+        } 
+        to{ 
+            top: 0; 
+            left:1200px;
+
+        }
+    } 
+    #box2{ 
+        width: 150px; 
+        height: 200px; 
+        margin: 0px; 
+        padding: 0px;  
+        border: 5px solid aquamarine; 
+        border-radius: 50px;
+        background-color: aqua; 
+        position: relative; 
+        animation-duration: 4s;
+        animation-name: leftmov; 
+        animation-iteration-count: infinite; 
+        animation-timing-function: linear;  
+        animation-direction: reverse; 
+        animation-fill-mode: both;
+
+    }
+    
+    @keyframes leftmov{ 
+        from{ 
+            top: 0px; 
+            left: 900px;
+        } 
+        to{ 
+            top: 0px; 
+            left: 800px;
+        }
+    }  
+    #circle{ 
+        width: 100px; 
+        height: 100px; 
+        margin: 10px; 
+        
+        
+        background-color: burlywood; 
+        border: 2px solid red;  
+        border-radius: 50px; 
+        margin: 10px; 
+        position: relative;
+        animation-name: circle; 
+        animation-duration: 2s; 
+        animation-delay: 0s;   
+        top: 30%; 
+        left: 20%; 
+        animation-name: circle;
+
+        animation-timing-function: linear; 
+        animation-iteration-count: infinite; 
+        animation-play-state: running;  
+        animation-direction: alternate-reverse;
+    } 
+    @keyframes circle{ 
+        0%{ 
+            top=1%; 
+            left=5%;
+        }
+        30%{ 
+            top=5%; 
+            left=90%;
+        } 
+        60%{ 
+            top=70%; 
+            left=90%; 
+        }
+        100%{ 
+            top=75%; 
+            left=90%;
+        }
+    }
+    </style>
+</head>
+<body> 
+    <div class="container">  
+        <div class="box"> 
+
+        </div> 
+        <div id="box2">
+
+        </div> 
+        <div id="circle"> 
+
+        </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
