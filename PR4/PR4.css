@@ -1,0 +1,83 @@
+html,
+body{ 
+    height: 100%; 
+    margin: 0;
+    font-size: 20; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px; 
+    font-weight: 400;  
+    background-color: darkgray;
+
+
+ }  
+ .Ptext{  
+background-image: url(https://media.istockphoto.com/id/872919474/photo/avenue-of-linden-trees-tree-lined-footpath-through-park-in-spring.jpg?s=2048x2048&w=is&k=20&c=MjzrnBGTJSNGOIAqccQHNheQo5KSyO2dPbRJmSlP_AY=); 
+min-height: 110%; 
+position: relative; 
+
+background-position: center; 
+background-size: cover; 
+background-repeat: no-repeat;
+ }  
+ .Ptext,
+ .P1text,
+ .P2text{  
+    background-image: url(https://media.istockphoto.com/id/872919474/photo/avenue-of-linden-trees-tree-lined-footpath-through-park-in-spring.jpg?s=2048x2048&w=is&k=20&c=MjzrnBGTJSNGOIAqccQHNheQo5KSyO2dPbRJmSlP_AY=); 
+min-height: 110%; 
+position: relative; 
+
+background-position: center; 
+background-size: cover; 
+background-repeat: no-repeat; 
+background-attachment:fixed ;
+ }  
+
+ }
+ .cont{ 
+    position: absolute
+    top=50%; 
+    width: 100%; 
+    font-size: 50px; 
+  text-align: center;  
+  background-color: black;
+  font-size: 50px; 
+  letter-spacing: 10px; 
+  text-transform: uppercase;
+ } 
+ .pimaf{  
+    
+    background-color: #fff; 
+    border: 20px; 
+    border-radius: 200px solid black; 
+    box-sizing: border-box; 
+    padding: 2px; 
+    text-align: center;
+ } 
+ 
+ 
+ .section{ 
+    padding: 60px,40px; 
+    text-align: center; 
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+ } 
+ .section-light{ 
+    background-color: #fff; 
+    color: darkgrey;
+
+ }  
+ .P1text{ 
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg); 
+    min-height: 100%;
+    position: relative;
+ } 
+ .P2text{ 
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_1280.jpg); 
+    min-height: 100%; 
+    position: relative;
+ } 
+ .section-light{ 
+    background-color: cornflowerblue; 
+    border: 20px;
+ }
