@@ -83,5 +83,14 @@ aside{
     justify-content: center; 
     gap: 10px;
 }
+.bars{ 
+    margin-top: 20px;
+} 
+.main cont{ 
+    min-width: 100%; 
+    background-color: dimgray;
+}
+
+
 
 
