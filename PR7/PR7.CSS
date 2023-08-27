@@ -76,17 +76,43 @@ input{
     align-items: center; 
     justify-content: space-between;
 } 
-.span{ 
-    width=60%; 
-    padding: 0.8%;
+.spn{ 
+    width: 60%; 
+    padding: 0.8%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 } 
-.span h1{  
-    color: rgb(94, 128, 0);
-    font-size: 40px; 
-    
-} 
-.span p{
-    font-size: 30px; 
-    color: aqua;
-}
+.spn h1{ 
+    font-size: 60px; 
 
+}
+.spn h1 span{ 
+    color: green;
+} 
+.spn p{ 
+    font-size: 30px;
+} 
+.spn p b{ 
+    color: green;
+} 
+footer{ 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+} 
+.pbx{ 
+    gap: 30px;
+} 
+ul{ 
+    display: flex; 
+    gap: 30px; 
+    align-items: end; 
+    font-size: 30px;
+}   
+footer p{ 
+    font-size: 40px; 
+    color: bisque;
+
+} 
+ul li{  
+    color: blue;
+}
