@@ -1,0 +1,92 @@
+*{  
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    overflow: hidden;
+} 
+body{ 
+    height: 100vh; 
+    width: 100vw;  
+    background-color: skyblue;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: space-between;
+
+
+} 
+li{ 
+    list-style: none; 
+    cursor: pointer;
+} 
+a{ 
+    text-decoration: none;
+}  
+
+button{ 
+    background-color: green; 
+    padding: 4px,10px; 
+    cursor: pointer; 
+    border-radius: 3px; 
+    font-size: 15px; 
+
+
+} 
+button:hover{  
+    background-color: whitesmoke; 
+    padding: 4px,10px; 
+    border-radius: 4px;
+
+}  
+header{ 
+    padding: 60px,0;
+}
+nav{ 
+    display: flex; 
+    width=100%; 
+    align-items: center; 
+    justify-content: space-around;
+} 
+nav .init{   
+    color: green;
+    font-size: 50px;
+    font-weight: 70;  
+    text-indent: 60px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav ul{ 
+    display: flex; 
+    font-size: 35px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 30px;
+} 
+nav ul li:hover{ 
+    font-weight: 900; 
+    text-decoration: solid;
+} 
+.srh{ 
+    display: flex; 
+    gap: 10px;
+} 
+input{ 
+   padding: 4px,10px;
+} 
+.Body{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+} 
+.span{ 
+    width=60%; 
+    padding: 0.8%;
+} 
+.span h1{  
+    color: rgb(94, 128, 0);
+    font-size: 40px; 
+    
+} 
+.span p{
+    font-size: 30px; 
+    color: aqua;
+}
+
