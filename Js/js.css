@@ -1,0 +1,9 @@
+#centre{
+    height: 300px; 
+    width: 500px;
+    position: absolute; 
+    border: 5px solid blue;
+    display: flex; 
+    margin-left: 40%; 
+    margin-top: 10%;
+}
