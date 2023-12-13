@@ -1,0 +1,47 @@
+
+html{
+    margin: 0;
+}
+span{
+    display: block;
+}
+.root{
+    text-align: center; 
+    margin: 100px,auto 100px; 
+    width: 70%;
+}
+.button{
+    width: 100px;
+    height: 100px; 
+    display: inline-block;
+}
+#grey{
+    background-color: grey;
+    border-radius: 40px;
+    
+}
+#yellow{
+    background-color: yellow;
+    border-radius: 40px;
+    
+}
+#green{
+    background-color: green;
+    border-radius: 40px;
+    
+}
+#red{
+    background-color: red;
+    border-radius: 40px;
+    
+}
+#blue{
+    background-color: blue;
+    border-radius: 40px;
+    
+}
+#black{
+    background-color: black;
+    border-radius: 40px;
+    
+}
