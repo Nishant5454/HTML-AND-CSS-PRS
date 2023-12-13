@@ -1,0 +1,24 @@
+.body{
+    background-color: gray;
+}
+.clock{
+    display: flex;
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column; 
+
+
+}
+
+#clock{
+    font-size: 50px;
+    border: 10px; 
+    background-color: orange; 
+    margin-top: 20px;
+    padding: 20px 50px; 
+    border-radius: 60px;
+    width: 150px;
+    
+
+
+}
